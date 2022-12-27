@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* 		text=binary
+.classpath 	text
+.project   	text
+*.java     	text
+*.iml	   	text
+*.xml	   	text
+
+gradlew		text eol=lf
+*.sh            text eol=lf
+
+*.png		binary
+*.jpg		binary
